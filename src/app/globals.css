@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bubble {
+  @apply absolute -z-10 rounded-full blur-3xl opacity-20;
+}
